@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+#catalogue{
+    display:grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+#catalogue > div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+#catalogue img{
+    
+    height: 300px;
+}
+
+#catalogue p{
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+#catalogue button{
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+#cart-logo{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+#cart-logo img{
+    width: 60px
+}

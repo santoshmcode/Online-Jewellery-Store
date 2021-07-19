@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+#cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart img {
+    height: 300px;
+}
+
+#cart > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#checkout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#checkout-btn > button {
+    padding : 10px;
+    background: yellow;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+

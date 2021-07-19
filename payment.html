@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<body>
+    <p>Add Your Credit Card Details</p>
+    <div id="credit-card">
+        <label for="card-number">Card Number</label>
+        <input type="number"  id="card-number" placeholder="xxxx-xxxx-xxxx-9860">
+        <br>
+        <label for="expiration-date">Expiration Date</label>
+        <input type="date" id="expiration-date" placeholder="Expiration Date">
+        <br>
+        <label for="cvv">CVV Number</label>
+        <input type="text"  id="cvv" placeholder="***">
+    </div>
+
+    <button id="btn" onclick="placeOrder()">Place  Order</button>
+</body>
+</html>
+
+<script>
+    function placeOrder() {
+        window.location.href = "successful.html"
+    }
+</script>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        p {
+            text-align: center;
+            margin-top: 200px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        img{
+            width: 300px
+        }
+    </style>
+</head>
+<body>
+    <p id="msg">
+        <img src="https://media.tenor.com/images/a742721ea2075bc3956a2ff62c9bfeef/tenor.gif" alt="Loding">
+    </p>
+</body>
+</html>
+
+<script>
+    let msg = document.getElementById("msg")
+
+    setTimeout(function() {
+        msg.innerHTML = "Your order is successfully placed";
+
+    }, 3000)
+</script>

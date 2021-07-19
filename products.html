@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <h1>Products Catalogue</h1>
+    <div id="cart-logo">
+        <a href="cart.html">
+            <img src="https://img.icons8.com/material-outlined/96/000000/fast-cart.png"/>
+        </a>
+    </div>
+    <label for="by-brand">Filter By Brand</label>
+    <select id="by-brand">
+        <option value="all">All</option>
+        <option value="OnePlus">OnePlus</option>
+        <option value="Redmi">Redmi</option>
+        <option value="oppo">oppo</option>
+        <option value="Realme">Realme</option>
+        <option value="Samsung">Samsung</option>
+    </select>
+
+    <label for="by-price">Filter By Price</label>
+    <select id="by-price">
+        <option value="all">All</option>
+        <option value="low-to-high">low-to-high</option>
+        <option value="high-to-low">high-to-low</option>
+    </select>
+    <div id="catalogue"></div>
+</body>
+</html>
+
+<script src="products.js"></script>
